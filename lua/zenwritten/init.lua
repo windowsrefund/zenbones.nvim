@@ -9,6 +9,7 @@ return lush.extends({ specs }).with(function()
 	---@diagnostic disable: undefined-global
 	-- selene: allow(undefined_variable)
 	return {
+		Directory { fg = p.water },
 		Statement { fg = p.blossom },
 		Special { fg = p.water },
 		String { fg = p.leaf },
